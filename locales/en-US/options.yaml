@@ -1,0 +1,7 @@
+silent: silent
+silent_description: Silent mode. It gives a silent response that no one but you can see.
+color: color
+color_description: Select a color
+pink: pink
+blue: blue
+red: red

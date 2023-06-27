@@ -1,0 +1,7 @@
+silent: sessiz
+silent_description: Sessiz mod. Sadece sizin görebileceğiniz sessiz bir yanıt verir.
+color: renk
+color_description: Bir renk seçin
+pink: pembe
+blue: mavi
+red: kırmızı

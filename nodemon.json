@@ -1,0 +1,4 @@
+{
+	"ext": "ts,yaml",
+	"exec": "npm run dev"
+}

@@ -1,0 +1,52 @@
+{
+	"name": "hammer",
+	"version": "0.0.1",
+	"description": "Hammer bot",
+	"main": "dist",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/canzade/Best-V14-Template"
+	},
+	"author": {
+		"email": "hi@338.rocks",
+		"name": "Barış DEMİRCİ",
+		"url": "https://338.rocks"
+	},
+	"license": "GPL-3.0",
+	"private": true,
+	"scripts": {
+		"prebuild": "rimraf dist",
+		"build": "tsc",
+		"update": "taze latest -w",
+		"format": "prettier --write .",
+		"dev": "cross-env NODE_ENV=development ts-node src/hammer",
+		"dev:watch": "cross-env NODE_ENV=development nodemon",
+		"start": "cross-env NODE_ENV=production node dist"
+	},
+	"devDependencies": {
+		"@types/node": "^20.3.1",
+		"@types/validator": "^13.7.17",
+		"cross-env": "^7.0.3",
+		"nodemon": "^2.0.22",
+		"prettier": "^2.8.8",
+		"rimraf": "^5.0.1",
+		"taze": "^0.10.2",
+		"ts-node": "^10.9.1",
+		"typescript": "^5.1.3"
+	},
+	"dependencies": {
+		"@hammerhq/localization": "^0.1.5",
+		"@hammerhq/logger": "^0.1.5",
+		"bufferutil": "^4.0.7",
+		"discord.js": "^14.11.0",
+		"dotenv": "^16.3.1",
+		"envalid": "^7.3.1",
+		"reflect-metadata": "^0.1.13",
+		"sequelize": "^6.32.1",
+		"sequelize-typescript": "^2.1.5",
+		"sqlite3": "^5.1.6",
+		"utf-8-validate": "^6.0.3",
+		"zlib-sync": "^0.1.8",
+		"zod": "^3.21.4"
+	}
+}

@@ -1,0 +1,5 @@
+owner_only: "Only the owner of the bot can use this command."
+cooldown: "You must wait a bit to use this command again. Please try again in `%{hours}h %{minutes}m %{seconds}s %{milliseconds}ms`. [%{endsAt}]"
+error: "An error occurred while executing this command. Please try again later."
+ping: "Pong! (%{ping}ms)"
+color_select: "You selected %{color}."

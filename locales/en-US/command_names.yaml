@@ -1,0 +1,4 @@
+ping: ping
+ping_description: Replies with pong
+autocomplete: autocomplete
+autocomplete_description: Autocomplete test command

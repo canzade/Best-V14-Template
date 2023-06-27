@@ -1,0 +1,5 @@
+owner_only: "Sadece botun sahibi bu komutu kullanabilir."
+cooldown: "Bu komutu bir kez daha kullanmak için biraz beklemelisiniz. Lütfen `%{hours}sa %{minutes}d %{seconds}s %{milliseconds}ms` sonra tekrar deneyin. [%{endsAt}]"
+error: "Bu komutu çalıştırırken bir hata oluştu. Lütfen daha sonra tekrar deneyin."
+ping: "Pong! (%{ping}ms)"
+color_select: "%{color} rengini seçtiniz."

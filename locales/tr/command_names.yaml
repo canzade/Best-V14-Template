@@ -1,0 +1,4 @@
+ping: ping
+ping_description: Pong cevabını verir
+autocomplete: oto-tamamla
+autocomplete_description: Otomatik tamamlama test komutu
