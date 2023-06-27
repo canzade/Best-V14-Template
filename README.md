@@ -7,6 +7,7 @@ Github'daki en iyi ve kaliteli Discord.JS v14 bot altyapısı! Hemen indirip kul
 -   TypeScript sayesinde daha hızlı ve hatasız geliştirme ortamı. Korkmayın, JavaScript bilmeniz yeterli!
 -   Yeni gelen slash komutlarına uygun şekilde tasarlanmış komut sistemi.
 -   Dahili çoklu dil sistemi, hiçbir database verisi kaydetmeden Discord Interaction özelliği sayesinde her kullanıcıya özel dil desteği.
+-   Sessiz yanıt özelliği. Eğer kullanıcılar gizliliklerini korumak istiyorsa komutları kullanırken `sessiz` seçeneğini seçip komutların yanıtlarını gizleyebilirler. Sizin burada yapmanız gereken hiçbir şey yok!
 -   Tüm Interaction türlerine tam destek.
 -   Direkt komutlarınızı yazabilmeniz için örnek komutlar.
 -   Databse bağlantısı için örnek SQLite bağlantısı, Sequelize tarafından desteklenen tüm database sistemlerini kullanabilirsiniz.
@@ -77,7 +78,7 @@ const command: IHammerCommand = {
 						ping: hammer.ws.ping.toString(),
 					},
 				),
-				ephemeral: silent,
+				ephemeral: silent, // Kullanıcı eğer komutun sessiz çalışmasını istiyorsa silent değerini kendisi true olarak yollayacaktır. Komutlarınızın yanıtlarına bu seçeneği eklemeyi unutmayın!
 			});
 
 			// Komutta bir sorun olmadıysa true döndürün. Eğer bir sorun varsa false döndürün.
